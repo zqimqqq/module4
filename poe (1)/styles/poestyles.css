@@ -1,0 +1,29 @@
+body {
+max-width: 60em;
+margin: 0 auto 0 auto;
+background-color: violet;
+background-image: url("../images/eye.png");
+background-repeat: no-repeat;
+background-position: right top;
+}
+
+table, th, td {
+border-collapse: collapse;
+border: 1px solid #000;
+padding: 1em;
+}
+/* not sure if text styling counts to new styles */
+h1 {
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color: beige; 
+width: 40%;
+}
+/* 2 Fallback fonts just on case*/
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p { 
+    font-family: "Times New Roman", Times, serif;
+   
+}
